@@ -1,0 +1,225 @@
+.login-full-box {
+    /* border: 2px solid black; */
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Login side main container */
+.login-box {
+    /* border: 2px solid yellow; */
+    width: 60%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    flex-wrap: wrap;
+}
+
+.login-main-side {
+    /* border: 2px solid green; */
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-input-box {
+    /* border: 2px solid black; */
+    width: 90%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.login-input-box p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    color: rgba(95, 101, 108, 0.927);
+}
+
+.login-input-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: darkorange;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+.login-input-box input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-bottom: 2px solid black;
+}
+
+.login-main-side h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 255, 0.664);
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+
+/* ✅ 1210px ke liye responsive  */
+/* ============================= */
+@media (max-width: 1210px) {
+    .login-box {
+        width: 80%;
+        height: 70vh;
+    }
+
+    .login-input-box {
+        width: 90%;
+        height: 230px;
+    }
+
+    .login-input-box p {
+        font-size: 10px;
+    }
+}
+
+/* ============================= */
+/* ✅ 1024px ke liye responsive  */
+/* ============================= */
+@media (max-width: 1024px) {
+    .login-box {
+        width: 85%;
+        height: 65vh;
+    }
+
+    .login-main-side {
+        width: 60%;
+    }
+
+    .login-input-box {
+        width: 95%;
+        height: 220px;
+    }
+}
+
+/* ============================= */
+/* ✅ 768px (tablet) ke liye     */
+/* ============================= */
+@media (max-width: 768px) {
+    .login-box {
+
+        width: 90%;
+        /* height: auto; */
+    }
+
+    .login-main-side {
+        width: 60%;
+
+
+    }
+
+    .login-input-box button {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 660px) {
+    .login-box {
+        width: 95%;
+        flex-direction: row;
+    }
+
+    .login-main-side {
+        width: 100%;
+        height: auto;
+    }
+
+
+}
+
+/* ============================= */
+/* ✅ 480px (mobile) ke liye     */
+/* ============================= */
+@media (max-width: 480px) {
+
+
+    .login-main-side {
+        width: 100%;
+        height: auto;
+    }
+
+
+
+    .login-input-box input {
+        font-size: 14px;
+    }
+
+    .login-input-box button {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .login-input-box {
+        gap: 8px;
+        height: 180px;
+    }
+}
+
+/* ✅ 1210px ke liye responsive  */
+/* ============================= */
+@media (max-width: 1210px) {
+    .login-box {
+        width: 80%;
+        height: 70vh;
+    }
+
+
+}
+
+/* ============================= */
+/* ✅ 1024px ke liye responsive  */
+/* ============================= */
+@media (max-width: 1024px) {
+    .login-box {
+        width: 85%;
+        height: 65vh;
+    }
+
+}
+
+/* ============================= */
+/* ✅ 768px (tablet) ke liye     */
+/* ============================= */
+@media (max-width: 768px) {
+    .login-box {
+
+        width: 90%;
+        /* height: auto; */
+    }
+
+}
+
+@media (max-width: 660px) {
+    .login-box {
+        width: 95%;
+        flex-direction: row;
+    }
+
+}
+
+/* ============================= */
+/* ✅ 480px (mobile) ke liye     */
+/* ============================= */
+@media (max-width: 480px) {
+    .login-box {
+        width: 95%;
+    }
+
+
+}

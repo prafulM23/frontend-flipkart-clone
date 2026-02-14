@@ -1,0 +1,214 @@
+.order-full-container {
+    /* border: 2px solid black; */
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* LOGIN SECTION */
+.order-login {
+    background-color: #fff;
+    padding: 10px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.order-login label {
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+    text-align: center;
+    color: blue;
+    background-color: rgba(128, 128, 128, 0.203);
+}
+
+.order-login span {
+    color: black;
+    font-weight: 650;
+    font-size: 16px;
+}
+
+.order-login h3 {
+    color: rgba(0, 0, 0, 0.514);
+    font-size: 18px;
+    display: flex;
+    gap: 10px;
+}
+
+/* BUTTON */
+.order-btn {
+    width: 130px;
+    padding: 9px;
+    background-color: transparent;
+    color: rgba(0, 0, 255, 0.86);
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.order-btn:focus {
+    background-color: rgba(0, 0, 255, 0.71);
+    color: white;
+}
+
+/* ORDER DETAIL */
+.order-detail {
+    /* border: 2px solid red; */
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* STEP HEADER */
+.order-nav {
+    background-color: rgba(0, 0, 255, 0.723);
+    padding: 10px;
+    color: #fff;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.order-nav h2 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.order-nav p {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background-color: #fff;
+    color: blue;
+}
+
+/* PRODUCT BOX */
+.order-box {
+    box-shadow: 0 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+/* PRODUCT IMAGE */
+.order-img-box {
+    width: 130px;
+    height: 130px;
+}
+
+.order-img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* PRODUCT DETAILS */
+.order-product-detail {
+    padding: 5px;
+    width: 30%;
+    min-width: 250px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.order-product-detail h1 {
+    font-size: 20px;
+    color: rgb(114, 114, 114);
+}
+
+/* ADDRESS BOX */
+.order-address-box {
+    box-shadow: 0 2px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    height: 180px;
+    width: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+.order-text-box input {
+    position: absolute;
+    right: 6px;
+    /* top: 30px; */
+}
+
+.order-text-box {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+/* ✅ RESPONSIVE DESIGN */
+@media (max-width: 1024px) {
+    .order-full-container {
+        width: 90%;
+    }
+
+    .order-product-detail {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .order-box {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .order-product-detail {
+        width: 100%;
+    }
+
+    .order-login {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .order-btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .order-full-container {
+        width: 95%;
+    }
+
+    .order-login h3 {
+        font-size: 16px;
+    }
+
+    .order-product-detail h1 {
+        font-size: 18px;
+    }
+
+    .order-btn {
+        font-size: 14px;
+        padding: 7px;
+    }
+
+    .order-address-box {
+        height: 120px;
+    }
+}

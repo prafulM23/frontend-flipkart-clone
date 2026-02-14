@@ -1,0 +1,119 @@
+.foot-box {
+    margin-top: 20px;
+    border-top: 2px solid #ffffff50;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    font-weight: lighter;
+    flex-wrap: wrap;
+    /* important for mobile */
+    gap: 20px;
+}
+
+.foot-section1,
+.foot-section2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    max-width: 900px;
+    border-bottom: 2px solid #ffffff40;
+    padding-bottom: 20px;
+}
+
+.foot-section,
+.foot-box-section2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 150px;
+}
+
+.foot-section h4,
+.foot-box-section2 h4 {
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.foot-section ul,
+.foot-box-section2 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.foot-section ul li,
+.foot-box-section2 ul p {
+    list-style: none;
+    font-size: 15px;
+    text-decoration: underline;
+    color: #ffffffd8;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* ============================ */
+/* 📱 Responsive Media Queries */
+/* ============================ */
+
+/* Tablets ≤1024px */
+@media (max-width: 1024px) {
+
+    /* .foot-section1,
+  .foot-section2 {
+    flex-direction: column;
+    align-items: center;
+      justify-content: space-around;
+
+    gap: 15px;
+  } */
+
+    /* .foot-section,
+    .foot-box-section2 {
+        max-width: 100%;
+    } */
+}
+
+/* Mobile ≤768px */
+@media (max-width: 768px) {
+    .foot-box {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .foot-section1,
+    .foot-section2 {
+        /* width: 100%; */
+        border-bottom: 1px solid #ffffff40;
+        padding-bottom: 15px;
+    }
+
+    .foot-section,
+    .foot-box-section2 {
+        align-items: center;
+        text-align: center;
+    }
+}
+
+/* Small Phones ≤480px */
+@media (max-width: 480px) {
+
+    .foot-section ul li,
+    .foot-box-section2 ul p,
+    .foot-section h4,
+    .foot-box-section2 h4 {
+        font-size: 13px;
+    }
+
+    .foot-box {
+        padding: 15px 10px;
+    }
+}

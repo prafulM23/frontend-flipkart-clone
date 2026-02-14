@@ -1,0 +1,48 @@
+.benner-box {
+    /* border: 2px solid red; */
+    height: 350px;
+    width: 98%;
+    margin: 10px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.benner-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+
+}
+
+.benner-box img:hover {
+    transform: scale(1.05);
+
+}
+
+@media (max-width:1024px) {
+    .benner-box {
+        height: 300px;
+    }
+}
+
+@media (max-width:768px) {
+    .benner-box {
+        height: 260px;
+    }
+
+    .benner-box img {
+        object-fit: cover;
+
+
+    }
+}
+
+@media (max-width:480px) {
+    .benner-box {
+        height: 180px;
+        width: 95%;
+
+    }
+
+}

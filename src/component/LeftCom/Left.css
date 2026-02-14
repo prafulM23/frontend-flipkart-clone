@@ -1,0 +1,143 @@
+
+/* Text side css */
+.login-text-side {
+    /* border: 2px solid red; */
+    color: #fff;
+    height: 100%;
+    width: 40%;
+    background-color: rgba(0, 0, 255, 0.664);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.login-text-upper {
+    /* border: 2px solid red; */
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-text-upper h4 {
+    color: rgba(240, 248, 255, 0.889);
+}
+
+.login-text-down {
+    /* border: 2px solid black; */
+    width: 75%;
+    height: 160px;
+}
+
+.login-text-down img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ✅ 1210px ke liye responsive  */
+/* ============================= */
+@media (max-width: 1210px) {
+   
+
+    .login-text-side {
+        width: 40%;
+        height: 70vh;
+    }
+
+    .login-text-upper h1 {
+        font-size: 26px;
+    }
+
+    .login-text-upper h4 {
+        font-size: 13px;
+    }
+
+    .login-text-down {
+        width: 80%;
+        height: 130px;
+    }
+
+}
+
+/* ============================= */
+/* ✅ 1024px ke liye responsive  */
+/* ============================= */
+@media (max-width: 1024px) {
+   
+
+    .login-text-side {
+        width: 40%;
+        height: 65vh;
+    }
+
+    .login-text-upper h1 {
+        font-size: 24px;
+    }
+
+
+    
+}
+
+/* ============================= */
+/* ✅ 768px (tablet) ke liye     */
+/* ============================= */
+@media (max-width: 768px) {
+    
+    .login-text-side {
+        width: 40%;
+        text-align: center;
+        /* height: auto; */
+    }
+
+    .login-text-side {
+        padding: 20px 0;
+    }
+
+    .login-text-upper h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 660px) {
+   
+
+    .login-text-side {
+        width: 100%;
+        height: auto;
+    }
+    .login-text-down {
+         width: 55%;
+        height: 150px;
+        margin-top: 10px;
+
+    }
+    .login-text-down img{
+        object-fit: contain;
+    }
+
+   
+
+
+}
+
+/* ============================= */
+/* ✅ 480px (mobile) ke liye     */
+/* ============================= */
+@media (max-width: 480px) {
+    
+
+    
+    .login-text-side {
+        width: 100%;
+        height: auto;
+    }
+
+    .login-text-upper h1 {
+        font-size: 18px;
+    }
+
+}

@@ -1,0 +1,127 @@
+.Option-container {
+    /* border: 2px solid black; */
+
+    display: grid;
+    /* justify-content: space-between; */
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+    /* border-radius: 10px; */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 10px;
+    width: 98%;
+    margin: 10px auto;
+}
+
+.option-item-box {
+    /* border: 2px solid black; */
+    width: 110px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+
+}
+
+.option-item-box:hover {
+    transform: scale(1.05);
+
+}
+
+.option-img-box {
+    width: 100px;
+    /* border: 2px solid red; */
+    height: 90px;
+    overflow: hidden;
+    /* background: linear-gradient(135deg, #e4b2ff, #ffccbc); */
+        background: linear-gradient(135deg, #a622ec, #f73e05ae);
+
+    margin-bottom: 5px;
+    border-radius: 10px;
+
+}
+
+.option-img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+
+@media (max-width:1024px) {
+    .Option-container {
+        grid-template-columns: repeat(4, 1fr);
+
+    }
+
+    .option-item-box {
+        width: 100px;
+        height: 100px;
+        font-size: 16px;
+
+    }
+    .option-img-box {
+        width: 90px;
+    height: 80px;
+    }
+}
+
+@media (max-width:768px){
+    .Option-container{
+         grid-template-columns: repeat(4, 1fr);
+
+    }
+    .option-item-box {
+        width: 90px;
+        height: 90px;
+        font-size: 14px;
+
+    }
+    .option-img-box {
+        width: 80px;
+    height: 70px;
+    }
+
+}
+
+@media (max-width:480px){
+    .Option-container{
+         grid-template-columns: repeat(3, 1fr);
+    }
+    .option-item-box {
+        width: 80px;
+        height: 70px;
+        font-size: 12px;
+
+    }
+    .option-img-box {
+        width: 70px;
+    height: 60px;
+    }
+
+}
+@media (max-width:360px){
+    .Option-container{
+         grid-template-columns: repeat(2, 1fr);
+    }
+    .option-item-box {
+        width: 95px;
+        height: 80px;
+        font-size: 14px;
+
+    }
+    .option-img-box {
+        width: 105px;
+    height: 85px;
+    }
+
+}
