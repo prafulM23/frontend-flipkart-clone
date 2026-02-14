@@ -143,7 +143,7 @@ const Cart = () => {
                     : <div className="cart-full-box">
                         <div className="cart-box">
 
-                            <img src="public/images/missing-cart.png" alt="" />
+                            <img src="/images/missing-cart.png" alt="" />
                             <div className="cart-text-box">
                                 <p>Missing Cart items?</p>
                                 <p>Login to see the items you added previously</p>

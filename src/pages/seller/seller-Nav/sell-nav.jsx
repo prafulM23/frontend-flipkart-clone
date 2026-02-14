@@ -10,7 +10,7 @@ const Sell_Nav = () => {
                 <hr />
                 <nav className="seller-nav-box" >
                     <div className="seller-nav-left" >
-                        <img src="public/images/flip-seller.jpg" alt="" />
+                        <img src="/images/flip-seller.jpg" alt="" />
                         <div className="seller-nav-left-text-box">
                             <span>Sell Online</span>
                             <span>Fees and Commission</span>

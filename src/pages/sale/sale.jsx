@@ -10,21 +10,21 @@ const Sale = () => {
             id: 1,
             info: "Best Deal of 2025",
             Category: " Macbook M2",
-            img: "public/images/m2_sec.png",
+            img: "/images/m2_sec.png",
             price: "Just ₹63,990"
         },
         {
             id: 2,
             info: "Best Deal of 2025",
             Category: "zeb,mivi Sound",
-            img: "public/images/hometheter.png",
+            img: "/images/hometheter.png",
             price: "Just ₹3,990"
         },
         {
             id: 3,
             info: "Best Deal of 2025",
             Category: "Philips,Full HD",
-            img: "public/images/lcd-remo.png",
+            img: "/images/lcd-remo.png",
             price: "Just ₹30,990"
         }
     ]

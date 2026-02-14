@@ -4,35 +4,35 @@ const Option = () => {
     const productoption = [
         {
             name: "Minutes",
-            img: "public/images/bike.png"
+            img: "/images/bike.png"
         },
         {
             name: "Mobile&Tab",
-            img: "public/images/mobile-tab.png"
+            img: "/images/mobile-tab.png"
         },
         {
             name: "Fashion",
-            img: "public/images/fashion.png"
+            img: "/images/fashion.png"
         },
         {
             name: "Electronics",
-            img: "public/images/lap-air.png"
+            img: "/images/lap-air.png"
         },
         {
             name: "Furniture",
-            img: "public/images/furniture.png"
+            img: "/images/furniture.png"
         },
         {
             name: "Appliances",
-            img: "public/images/tvs.png"
+            img: "/images/tvs.png"
         },
         {
             name: "Flight Bookings",
-            img: "public/images/airoplain.png"
+            img: "/images/airoplain.png"
         },
         {
             name: "Grocery",
-            img: "public/images/grocery.png"
+            img: "/images/grocery.png"
         },
 
     ]
@@ -45,10 +45,10 @@ const Option = () => {
                         <div className="option-item-box">
 
                             <div className="option-img-box" >
-                             <img src={item.img} alt="" />
+                                <img src={item.img} alt="" />
                             </div>
-                            
-                           <h5>{item.name}</h5>
+
+                            <h5>{item.name}</h5>
                         </div>
 
                     ))

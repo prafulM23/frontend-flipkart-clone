@@ -14,7 +14,7 @@ const Flex = () => {
     const flex = [
         {
             id: 22,
-            img: "public/images/shirt1.jpg",
+            img: "/images/shirt1.jpg",
             price: 840,
             info: "Men Slim Fit Casual Shirt",
             Category: "shirt",
@@ -23,7 +23,7 @@ const Flex = () => {
         },
         {
             id: 23,
-            img: "public/images/shirt2.jpg",
+            img: "/images/shirt2.jpg",
             price: 250,
             info: "Men Regular Fit Collar Shirt",
             Category: "shirt",
@@ -32,7 +32,7 @@ const Flex = () => {
         },
         {
             id: 24,
-            img: "public/images/shirt3.jpg",
+            img: "/images/shirt3.jpg",
             price: 430,
             info: "Men Slim Fit Casual Shirt",
             Category: "shirt",
@@ -41,7 +41,7 @@ const Flex = () => {
         },
         {
             id: 25,
-            img: "public/images/shirt4.jpg",
+            img: "/images/shirt4.jpg",
             price: 540,
             info: "Striped Spread Shirt",
             Category: "shirt",
@@ -50,7 +50,7 @@ const Flex = () => {
         },
         {
             id: 26,
-            img: "public/images/shirt5.jpg",
+            img: "/images/shirt5.jpg",
             price: 300,
             info: "Men Regular Fit Collar Shirt",
             Category: "shirt",
@@ -59,7 +59,7 @@ const Flex = () => {
         },
         {
             id: 27,
-            img: "public/images/shirt6.jpg",
+            img: "/images/shirt6.jpg",
             price: 380,
             info: "Men Slim Fit Casual Shirt",
             Category: "shirt",
@@ -68,7 +68,7 @@ const Flex = () => {
         },
         {
             id: 28,
-            img: "public/images/shirt7.jpg",
+            img: "/images/shirt7.jpg",
             price: 600,
             info: "Striped Spread Shirt",
             Category: "shirt",
@@ -108,7 +108,7 @@ const Flex = () => {
                 <div className="flex-optionp-box">
                     <div className="flex-option">
                         <div className="flex-img-box">
-                            <img src="public/images/fashion2.jpg" />
+                            <img src="/images/fashion2.jpg" />
                         </div>
 
                     </div>

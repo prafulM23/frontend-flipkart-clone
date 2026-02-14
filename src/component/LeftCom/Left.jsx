@@ -10,7 +10,7 @@ const LeftCom = ({ Heading, secondhead, thirdhead }) => {
                     </h4>
                 </div>
                 <div className="login-text-down">
-                    <img src="public/images/login-img.jpg" alt="" />
+                    <img src="/images/login-img.jpg" alt="" />
 
                 </div>
             </div>

@@ -8,7 +8,7 @@ const Benner_Sell = () => {
 
         </div>
         <div>
-          <img   style={{width:"50%"}}  src="public/images/seller-benner.jpg" alt="" />
+          <img style={{ width: "50%" }} src="/images/seller-benner.jpg" alt="" />
         </div>
       </div>
     </>

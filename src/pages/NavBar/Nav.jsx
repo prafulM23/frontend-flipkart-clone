@@ -17,7 +17,7 @@ const Nav = () => {
             <div className="Nav-container">
                 <div className="Nav-flip-logo">
                     <div className="Nav-flip-img-box">
-                        <Link to="/" ><img src="public/images/flip-logo.png" alt="Flipcart" /></Link>
+                        <Link to="/" ><img src="/images/flip-logo.png" alt="Flipcart" /></Link>
 
                     </div>
                     <div className="nav-sp">
@@ -54,7 +54,7 @@ const Nav = () => {
 
                         </div>
                     </Link>
-                    
+
 
                 </div>
                 {/* <Link to="/account" className="link">

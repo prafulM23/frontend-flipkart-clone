@@ -11,35 +11,35 @@ const Fav = () => {
     const fav = [
         {
             id: 17,
-            img: "public/images/shoes.jpg",
+            img: "/images/shoes.jpg",
             price: 1200,
             info: "Running Fast And Comfortable",
             Category: "shoes"
         },
         {
             id: 18,
-            img: "public/images/watch.jpg",
+            img: "/images/watch.jpg",
             price: 890,
             info: "Smart Watch 5star",
             Category: "Watch"
         },
         {
             id: 19,
-            img: "public/images/Wireless.jpg",
+            img: "/images/Wireless.jpg",
             price: 610,
             info: "Primum Sound ",
             Category: "Wireless"
         },
         {
             id: 20,
-            img: "public/images/sleeper2.jpg",
+            img: "/images/sleeper2.jpg",
             price: 359,
             info: "Walk Smothe ",
             Category: "sleeper"
         },
         {
             id: 21,
-            img: "public/images/face.jpg",
+            img: "/images/face.jpg",
             price: 540,
             info: "looks good",
             Category: "faceWash"
