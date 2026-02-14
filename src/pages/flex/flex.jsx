@@ -5,11 +5,11 @@ import { useNavigate } from "react-router-dom"
 
 const Flex = () => {
     let navigate = useNavigate()
-     const [cart, setcart] = useState(() => {
-            const save = localStorage.getItem("flip-cart");
-            return save ? JSON.parse(save) : [];
-        })
-    
+    const [cart, setcart] = useState(() => {
+        const save = localStorage.getItem("flip-cart");
+        return save ? JSON.parse(save) : [];
+    })
+
 
     const flex = [
         {
@@ -108,7 +108,7 @@ const Flex = () => {
                 <div className="flex-optionp-box">
                     <div className="flex-option">
                         <div className="flex-img-box">
-                            <img src="public/images/fashion2.webp" />
+                            <img src="public/images/fashion2.jpg" />
                         </div>
 
                     </div>
