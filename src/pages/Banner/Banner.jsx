@@ -3,7 +3,7 @@ const Banner = () => {
     return (
         <>
             <div className="benner-box">
-                <img src="public/images/benner-pix1.jpg" />
+                <img src="/images/benner-pix1.jpg" />
             </div>
 
         </>

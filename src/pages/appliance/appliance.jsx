@@ -10,7 +10,7 @@ const Appliance = () => {
     const Applian = [
         {
             id: 7,
-            img: "public/images/lcd-remo.png",
+            img: "/images/lcd-remo.png",
             price: 30840,
             info: "65/75 inch TVs",
             Category: "Primium LCD",
