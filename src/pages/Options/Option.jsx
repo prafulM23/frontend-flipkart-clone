@@ -4,35 +4,35 @@ const Option = () => {
     const productoption = [
         {
             name: "Minutes",
-            img: "public/bike.png"
+            img: "public/images/bike.png"
         },
         {
             name: "Mobile&Tab",
-            img: "public/mobile-tab.png"
+            img: "public/images/mobile-tab.png"
         },
         {
             name: "Fashion",
-            img: "public/fashion.png"
+            img: "public/images/fashion.png"
         },
         {
             name: "Electronics",
-            img: "public/lap-air.png"
+            img: "public/images/lap-air.png"
         },
         {
             name: "Furniture",
-            img: "public/furniture.png"
+            img: "public/images/furniture.png"
         },
         {
             name: "Appliances",
-            img: "public/tvs.png"
+            img: "public/images/tvs.png"
         },
         {
             name: "Flight Bookings",
-            img: "public/airoplain.png"
+            img: "public/images/airoplain.png"
         },
         {
             name: "Grocery",
-            img: "public/grocery.png"
+            img: "public/images/grocery.png"
         },
 
     ]

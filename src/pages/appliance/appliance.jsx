@@ -10,7 +10,7 @@ const Appliance = () => {
     const Applian = [
         {
             id: 7,
-            img: "public/lcd-remo.png",
+            img: "public/images/lcd-remo.png",
             price: 30840,
             info: "65/75 inch TVs",
             Category: "Primium LCD",
@@ -19,7 +19,7 @@ const Appliance = () => {
         },
         {
             id: 8,
-            img: "public/washing.jpg",
+            img: "public/images/washing.jpg",
             price: 20000,
             info: "LG 7Liter POwer Machine",
             Category: "Washing Machine",
@@ -27,7 +27,7 @@ const Appliance = () => {
         },
         {
             id: 9,
-            img: "public/microwave.jpg",
+            img: "public/images/microwave.jpg",
             price: 5100,
             info: "5 Star Higher microwve",
             Category: "MicroWave",
@@ -36,7 +36,7 @@ const Appliance = () => {
         },
         {
             id: 10,
-            img: "public/AC.jpg",
+            img: "public/images/AC.jpg",
             price: 25999,
             info: "Best cooling Conditioner",
             Category: "Air Conditioner",
@@ -44,7 +44,7 @@ const Appliance = () => {
         },
         {
             id: 11,
-            img: "public/mixer.jpg",
+            img: "public/images/mixer.jpg",
             price: 7540,
             info: "Hight Power Bolltage ",
             Category: "Mixer",

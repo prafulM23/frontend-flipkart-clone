@@ -15,7 +15,7 @@ const Mobile = () => {
         {
             id: 1,
             info: "I Phone16",
-            img: "public/i phone16.jpg",
+            img: "public/images/i phone16.jpg",
             price: 69000,
             Category: "Apply Mobile",
             Description: "This smartphone offers a powerful processor, stunning display, long-lasting battery, and advanced camera features. Its sleek design, fast performance, and user-friendly interface make it perfect for work, entertainment, and photography. Whether Android or iPhone, it ensures smooth multitasking, strong security, and an overall premium mobile experience."
@@ -24,7 +24,7 @@ const Mobile = () => {
         {
             id: 2,
             info: "Google Pixal9",
-            img: "public/googlepix9.jpg",
+            img: "public/images/googlepix9.jpg",
             price: 79999,
             Category: "Google Mobile",
             Description: "This smartphone offers a powerful processor, stunning display, long-lasting battery, and advanced camera features. Its sleek design, fast performance, and user-friendly interface make it perfect for work, entertainment, and photography. Whether Android or iPhone, it ensures smooth multitasking, strong security, and an overall premium mobile experience."
@@ -33,7 +33,7 @@ const Mobile = () => {
         {
             id: 3,
             info: "I Phone 16pro",
-            img: "public/i phone 16proEd.jpg",
+            img: "public/images/i phone 16proEd.jpg",
             price: 105990,
             Category: "Apply Mobile",
             Description: "This smartphone offers a powerful processor, stunning display, long-lasting battery, and advanced camera features. Its sleek design, fast performance, and user-friendly interface make it perfect for work, entertainment, and photography. Whether Android or iPhone, it ensures smooth multitasking, strong security, and an overall premium mobile experience."
@@ -42,7 +42,7 @@ const Mobile = () => {
         {
             id: 4,
             info: "Galaxy S24",
-            img: "public/galaxy24.jpg",
+            img: "public/images/galaxy24.jpg",
             price: 33999,
             Category: "Samsung Mobile",
             Description: "This smartphone offers a powerful processor, stunning display, long-lasting battery, and advanced camera features. Its sleek design, fast performance, and user-friendly interface make it perfect for work, entertainment, and photography. Whether Android or iPhone, it ensures smooth multitasking, strong security, and an overall premium mobile experience."
@@ -51,7 +51,7 @@ const Mobile = () => {
         {
             id: 5,
             info: "I Phone 14",
-            img: "public/i phone14.jpg",
+            img: "public/images/i phone14.jpg",
             price: 54999,
             Category: "Apply Mobile",
             Description: "This smartphone offers a powerful processor, stunning display, long-lasting battery, and advanced camera features. Its sleek design, fast performance, and user-friendly interface make it perfect for work, entertainment, and photography. Whether Android or iPhone, it ensures smooth multitasking, strong security, and an overall premium mobile experience."
@@ -60,7 +60,7 @@ const Mobile = () => {
         {
             id: 6,
             info: "I Phone 17pro",
-            img: "public/i phone17pro.jpg",
+            img: "public/images/i phone17pro.jpg",
             price: 150000,
             Category: "Apply Mobile",
             Description: "This smartphone offers a powerful processor, stunning display, long-lasting battery, and advanced camera features. Its sleek design, fast performance, and user-friendly interface make it perfect for work, entertainment, and photography. Whether Android or iPhone, it ensures smooth multitasking, strong security, and an overall premium mobile experience."
@@ -118,7 +118,7 @@ const Mobile = () => {
                 <div className="mobile-side-box" onClick={singlepage}>
                     <h1>i Phone17 pro</h1>
                     <div className="mobile-side-img" >
-                        <img src="public/i phone17 remove.png" alt="" />
+                        <img src="public/images/i phone17 remove.png" alt="" />
                     </div>
 
                     <div className="mobile-side-text" >

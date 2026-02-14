@@ -13,7 +13,7 @@ const Deals = () => {
 
         {
             id: 12,
-            img: "public/bags.webp",
+            img: "public/images/bags.webp",
             price: 840,
             info: "Fully WaterProf Bag",
             Category: "Laptop Bag",
@@ -21,7 +21,7 @@ const Deals = () => {
         },
         {
             id: 13,
-            img: "public/moniter.webp",
+            img: "public/images/moniter.webp",
             price: 20000,
             info: "4K HD Amulad display",
             Category: "Monitor",
@@ -29,7 +29,7 @@ const Deals = () => {
         },
         {
             id: 14,
-            img: "public/perfuam.webp",
+            img: "public/images/perfuam.webp",
             price: 350,
             info: "Best Every Fragnance",
             Category: "Perfum",
@@ -37,7 +37,7 @@ const Deals = () => {
         },
         {
             id: 15,
-            img: "public/projecter.webp",
+            img: "public/images/projecter.webp",
             price: 2259,
             info: "Primum Show With ",
             Category: "Projector",
@@ -45,7 +45,7 @@ const Deals = () => {
         },
         {
             id: 16,
-            img: "public/wallClocks.webp",
+            img: "public/images/wallClocks.webp",
             price: 300,
             info: "Home Click ",
             Category: "WallClock",
