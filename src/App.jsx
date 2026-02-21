@@ -15,7 +15,6 @@ const App = () => {
   const demo = useLocation();
   const [cartList, setCartList] = useState([])
   console.log(cartList)
-  let token = localStorage.getItem("token")
 
 
   if (demo.pathname == "/cart") {
@@ -51,9 +50,9 @@ const App = () => {
           <Route path="/sign" element={<Sign_up />}></Route>
           <Route path="/cart" element={<Cart cartList={cartList} />}></Route>
           <Route path="/product" element={<Product />}></Route>
-          {
-            token ? <Route path="/order" element={<Order />}></Route> : <Route path="/login" element={<Login />}></Route>
-          }
+
+          <Route path="/order" element={<Order />}></Route>
+
 
 
 

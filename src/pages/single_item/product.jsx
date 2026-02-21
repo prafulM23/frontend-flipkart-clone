@@ -4,12 +4,19 @@ const Product = () => {
     let naviagte = useNavigate()
     let location = useLocation()
     let product_detail = location.state;
+    let token = localStorage.getItem("token")
+
 
     console.log(product_detail)
 
     const handleBuy = (item) => {
         console.log("order", item)
-        naviagte("/order", { state: item })
+        if (token) {
+            naviagte("/order", { state: item })
+        } else {
+            naviagte("/login")
+        }
+
     }
 
 
@@ -22,7 +29,7 @@ const Product = () => {
                     </div>
                     <div className="product-img-btnbox">
                         <button>AddToCart</button>
-                        <button onClick={() => { handleBuy(product_detail) }}>Buy Now</button>
+                        <button onClick={() => handleBuy(product_detail)}>Buy Now</button>
                     </div>
                 </div>
                 <div className="product-detail-section">
@@ -43,7 +50,7 @@ const Product = () => {
                             <li> <span>A -</span> Bank Offer5% cashback on Axis Bank Flipkart Debit Card up to ₹750 <span>T&C</span></li>
                             <li> <span>B -</span> Bank Offer5% cashback on Flipkart SBI Credit Card upto ₹4,000 per calendar quarter  <span>T&C</span></li>
                             <li> <span>C -</span> Bank Offer5% cashback on Flipkart Axis Bank Credit Card upto ₹4,000 per statement quarter<span>T&C</span></li>
-                            
+
                         </ol>
 
                     </div>

@@ -7,6 +7,7 @@ const Appliance = () => {
         const save = localStorage.getItem("flip-cart");
         return save ? JSON.parse(save) : [];
     })
+    
     const Applian = [
         {
             id: 7,
@@ -60,7 +61,7 @@ const Appliance = () => {
         }
         else {
             updatecart = [...cart, { ...product, quantity: 1 }]
-            
+
         }
         alert("Add your product in cart ")
         setcart(updatecart);

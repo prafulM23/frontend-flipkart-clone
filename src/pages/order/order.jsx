@@ -6,6 +6,7 @@ const Order = () => {
     let location = useLocation()
     let product_detail = location.state;
     console.log(product_detail)
+    
     const changelogin = () => {
         navigate("/login")
 
@@ -17,6 +18,7 @@ const Order = () => {
             <button onClick={() => window.location.href = "/"}>Go to Home</button>
         </div>;
     }
+
     return (
         <>
 
