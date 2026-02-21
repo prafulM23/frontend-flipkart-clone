@@ -52,10 +52,10 @@ const App = () => {
           <Route path="/cart" element={<Cart cartList={cartList} />}></Route>
           <Route path="/product" element={<Product />}></Route>
           {
-            token ? <Route path="/Order" element={<Order />}></Route> :  <Route path="/login" element={<Login />}></Route>
+            token ? <Route path="/order" element={<Order />}></Route> : <Route path="/login" element={<Login />}></Route>
           }
-          
-          
+
+
 
         </Routes>
         <Foot />

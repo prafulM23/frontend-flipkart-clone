@@ -4,11 +4,12 @@ const Product = () => {
     let naviagte = useNavigate()
     let location = useLocation()
     let product_detail = location.state;
+
     console.log(product_detail)
 
     const handleBuy = (item) => {
-        console.log(item)
-        naviagte("/Order", { state: item })
+        console.log("order", item)
+        naviagte("/order", { state: item })
     }
 
 

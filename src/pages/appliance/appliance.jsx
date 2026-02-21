@@ -60,8 +60,7 @@ const Appliance = () => {
         }
         else {
             updatecart = [...cart, { ...product, quantity: 1 }]
-
-
+            
         }
         alert("Add your product in cart ")
         setcart(updatecart);
