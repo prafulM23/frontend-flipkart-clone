@@ -10,8 +10,17 @@ const Order = () => {
         navigate("/login")
 
     }
+
+    if (!product_detail) {
+        return <div style={{ padding: "50px", textAlign: "center" }}>
+            <h2>No product selected or Page refreshed!</h2>
+            <button onClick={() => window.location.href = "/"}>Go to Home</button>
+        </div>;
+    }
     return (
         <>
+
+
             <div className="order-full-container">
                 <div className="order-login">
                     <h3>
