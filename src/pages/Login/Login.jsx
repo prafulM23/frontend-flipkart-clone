@@ -4,6 +4,7 @@ import "./Login.css"
 import { useNavigate } from "react-router-dom"
 import Otp from "../../component/OTP/otp"
 import axios from "axios";
+const BASE_URL = import.meta.env.VITE_BASE_URL
 
 const Login = () => {
     let headname = "Login";
@@ -24,7 +25,7 @@ const Login = () => {
             if (!email) {
                 return (setoutput(<p style={{ color: "red" }}>Email Missing</p>))
             }
-            const res = await axios.post("http://localhost:8099/login", { email })
+            const res = await axios.post(`${BASE_URL}/login`, { email })
             console.log(res.data)
             if (res.status == 200) {
                 localStorage.setItem("email", email)
@@ -50,12 +51,10 @@ const Login = () => {
             const getemail = localStorage.getItem("email")
             const getotp = otp.join("")
             console.log(getemail, getotp);
-            const res = await axios.post("http://localhost:8099/verify", { getemail, getotp })
+            const res = await axios.post(`${BASE_URL}/verify`, { getemail, getotp })
             console.log(res.data.token)
             if (res.status == 200) {
                 localStorage.setItem("token", res.data.token)
-                
-
                 setoutput(
                     <p style={{ color: "green" }}>{res.data.msg}</p>
                 )

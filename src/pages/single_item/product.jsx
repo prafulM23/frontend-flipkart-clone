@@ -6,9 +6,6 @@ const Product = () => {
     let product_detail = location.state;
     let token = localStorage.getItem("token")
 
-
-    console.log(product_detail)
-
     const handleBuy = (item) => {
         console.log("order", item)
         if (token) {

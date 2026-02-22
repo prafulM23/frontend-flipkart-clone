@@ -4,6 +4,8 @@ import axios from "axios"
 import "./Sign.css"
 import Otp from "../../component/OTP/otp"
 import { useNavigate } from "react-router-dom"
+const BASE_URL = import.meta.env.VITE_BASE_URL
+
 const Sign_up = () => {
     const [email, setemail] = useState("")
     const [output, setoutput] = useState(false);
@@ -11,10 +13,13 @@ const Sign_up = () => {
     const [otpbox, setotpbox] = useState(false)
     let navigate = useNavigate()
 
+
+    console.log(BASE_URL, "urllllllllllllllllllllllllllllllllllllllll")
+
     const handlesign = async () => {
         try {
             if (email === "") return (setoutput("Missing Email"))
-            const res = await axios.post("http://localhost:8099/sign", { email })
+            const res = await axios.post(`${BASE_URL}/sign`, { email })
             console.log(res.status)
             if (res.status == 200) {
                 localStorage.setItem("email", email)
@@ -41,7 +46,7 @@ const Sign_up = () => {
             const getemail = localStorage.getItem("email")
             const getotp = otp.join("")
             console.log(getemail, getotp);
-            const res = await axios.post("http://localhost:8099/verify", { getemail, getotp })
+            const res = await axios.post(`${BASE_URL}/verify`, { getemail, getotp })
             console.log(res.data.token)
             if (res.status == 200) {
                 localStorage.setItem("token", res.data.token)
