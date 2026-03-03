@@ -75,8 +75,8 @@ const Mobile = () => {
         if (exist) {
             updatecart = cart.map((p) => p.id === product.id
                 ? { ...p, quantity: (p.quantity || 1) + 1 } : p)
-
         }
+
         else {
             updatecart = [...cart, { ...product, quantity: 1 }]
         }
@@ -84,7 +84,6 @@ const Mobile = () => {
         setcart(updatecart);
         localStorage.setItem("flip-cart", JSON.stringify(updatecart));
         console.log(updatecart)
-
     }
     const singlepage = (product) => {
         navigate("/product", { state: product })

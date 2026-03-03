@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom"
 const Sale = () => {
     let navigate = useNavigate()
 
-
     const saleoption = [
         {
             id: 1,
@@ -28,6 +27,8 @@ const Sale = () => {
             price: "Just ₹30,990"
         }
     ]
+
+    // Navigate to product page
     const singlepage = (product) => {
         navigate("/product", { state: product })
 
@@ -46,15 +47,10 @@ const Sale = () => {
                                 <h2>{item.Category}</h2>
                                 <span>{item.price}</span>
                             </div>
-
                         </div>
-
                     ))
                 }
-
-
             </div>
-
         </>
     )
 }

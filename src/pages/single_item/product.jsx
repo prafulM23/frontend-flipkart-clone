@@ -13,9 +13,7 @@ const Product = () => {
         } else {
             naviagte("/login")
         }
-
     }
-
 
     return (
         <>
@@ -47,9 +45,7 @@ const Product = () => {
                             <li> <span>A -</span> Bank Offer5% cashback on Axis Bank Flipkart Debit Card up to ₹750 <span>T&C</span></li>
                             <li> <span>B -</span> Bank Offer5% cashback on Flipkart SBI Credit Card upto ₹4,000 per calendar quarter  <span>T&C</span></li>
                             <li> <span>C -</span> Bank Offer5% cashback on Flipkart Axis Bank Credit Card upto ₹4,000 per statement quarter<span>T&C</span></li>
-
                         </ol>
-
                     </div>
                     {
                         product_detail.Capacity ? <div className="product-capacity-box">
@@ -61,7 +57,6 @@ const Product = () => {
                             <p>8kg</p>
                         </div> : ""
                     }
-
                     <div className="product-description-box">
                         <h2>Description  </h2>
                         <p>{product_detail.Description}</p>

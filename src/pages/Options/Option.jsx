@@ -41,18 +41,13 @@ const Option = () => {
             <div className="Option-container">
                 {
                     productoption.map((item, i) => (
-
                         <div className="option-item-box">
-
                             <div className="option-img-box" >
                                 <img src={item.img} alt="" />
                             </div>
-
                             <h5>{item.name}</h5>
                         </div>
-
                     ))
-
                 }
             </div>
         </>

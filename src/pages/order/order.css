@@ -1,5 +1,4 @@
 .order-full-container {
-    /* border: 2px solid black; */
     width: 80%;
     margin: 10px auto;
     display: flex;
@@ -61,7 +60,6 @@
 
 /* ORDER DETAIL */
 .order-detail {
-    /* border: 2px solid red; */
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -141,12 +139,9 @@
     gap: 10px;
 }
 
-
-
 .order-text-box input {
     position: absolute;
     right: 6px;
-    /* top: 30px; */
 }
 
 .order-text-box {

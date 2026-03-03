@@ -1,5 +1,4 @@
 .product-box {
-    /* border: 2px solid black; */
     padding: 10px;
     display: flex;
     flex-direction: row;
@@ -7,11 +6,9 @@
     background-color: #fff;
     width: 90%;
     margin: 13px auto;
-    /* flex-wrap: wrap; */
 }
 
 .product-img-section {
-    /* border: 2px solid red; */
     width: 30%;
     height: 500px;
     padding: 5px;
@@ -19,32 +16,23 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-
-
 }
 
 .product-img {
-    /* border: 2px solid black; */
     width: 90%;
     height: 85%;
     overflow: hidden;
-
 }
 
 .product-img img {
     width: 100%;
     height: 100%;
     object-fit: contain;
-
 }
 
 .product-img-btnbox {
-    /* border: 2px solid orange; */
     display: flex;
-    /* justify-content: space-around; */
     gap: 15px;
-
-
 }
 
 .product-img-btnbox button {
@@ -55,16 +43,10 @@
 }
 
 .product-detail-section {
-    /* border: 2px solid orange; */
-    /* padding: 10px; */
     width: 70%;
     display: flex;
     flex-direction: column;
     gap: 13px;
-    /* height: 500px; */
-
-
-
 }
 
 .product-detail-section p {
@@ -73,14 +55,12 @@
 }
 
 .product-price-box {
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 
 .product-price-box2 {
-    /* border: 2px solid orange; */
     display: flex;
     gap: 10px;
     align-items: center;
@@ -95,33 +75,22 @@
 .product-price-box2 p {
     color: green;
     font-weight: bold;
-
-
-
 }
 
 .product-price-box h4 {
     color: green;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-
 }
 
-
-
 .product-offer-box {
-    /* border: 2px solid black; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-
 }
 
 .product-offer-box h3 {
     font-size: 18px;
     font-weight: 600;
     color: green;
-
 }
 
 .product-offer-box ol {
@@ -138,7 +107,6 @@
 }
 
 .product-capacity-box {
-    /* border: 2px solid red; */
     display: flex;
     gap: 20px;
     padding: 10px;
@@ -157,8 +125,6 @@
 .product-capacity-box h2 {
     color: rgba(0, 0, 0, 0.515);
     font-size: 18px;
-
-
 }
 
 .product-capacity-box p:hover {
@@ -167,33 +133,28 @@
 }
 
 .product-description-box {
-    /* border: 2px solid black; */
     padding: 10px;
-
 }
 
 .product-description-box p {
     font-size: 14px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
 }
 
 .product-description-box h2 {
     color: green;
-
     font-size: 18px;
-
 }
+
+
+/*  1440px ke liye responsive */
 @media (max-width: 1440px) {
     .product-img-btnbox button {
-    width: 150px;
-   
+        width: 150px;
+    }
 }
 
-
-}
-
-
+/*  1024px ke liye responsive */
 @media (max-width: 1024px) {
     .product-box {
         flex-direction: column;
@@ -210,7 +171,7 @@
     }
 }
 
-/* For Mobile (<=768px) */
+/*   768px liye responsive */
 @media (max-width: 768px) {
     .product-img-section {
         width: 100%;

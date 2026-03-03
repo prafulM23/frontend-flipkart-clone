@@ -1,5 +1,4 @@
 .sign-full-box {
-    /* border: 2px solid black; */
     height: 85vh;
     display: flex;
     align-items: center;
@@ -8,7 +7,6 @@
 
 /* sign side main container */
 .sign-box {
-    /* border: 2px solid yellow; */
     width: 60%;
     height: 75vh;
     display: flex;
@@ -18,7 +16,6 @@
 }
 
 .sign-otp-box {
-    /* border: 2px solid red; */
     width: 500px;
     margin: auto;
     padding: 10px;
@@ -32,7 +29,6 @@
 }
 
 .sign-main-side {
-    /* border: 2px solid green; */
     width: 60%;
     height: 100%;
     display: flex;
@@ -42,7 +38,6 @@
 }
 
 .sign-input-box {
-    /* border: 2px solid black; */
     width: 90%;
     height: 250px;
     display: flex;
@@ -85,86 +80,40 @@ button {
 }
 
 
-/* ✅ 1210px ke liye responsive  */
-/* ============================= */
+
+/*  1024px ke liye responsive  */
+@media (max-width: 1024px) {
+    .sign-box {
+        width: 85%;
+        height: 70vh;
+    }
+
+}
+
+/*  1210px ke liye responsive  */
 @media (max-width: 1210px) {
     .sign-box {
         width: 80%;
         height: 70vh;
     }
-
-    .sign-input-box {
-        width: 90%;
-        height: 230px;
-    }
-
-    .sign-input-box p {
-        font-size: 10px;
-    }
-     .sign-otp-box {
-        width: 490px;
-    }
-}
-
-/* ============================= */
-/* ✅ 1024px ke liye responsive  */
-/* ============================= */
-@media (max-width: 1024px) {
-    .sign-box {
-        width: 85%;
-        height: 65vh;
-    }
-
-    .sign-main-side {
-        width: 60%;
-    }
-
-    .sign-input-box {
-        width: 95%;
-        height: 220px;
-    }
-      .sign-otp-box {
-        width: 430px;
-    }
-   
-}
-
-@media (max-width: 850px){
-      .sign-otp-box {
-        width: 380px;
-    }
-
 }
 
 
-/* ============================= */
-/* ✅ 768px (tablet) ke liye     */
-/* ============================= */
+/*  768px (tablet) ke liye     */
 @media (max-width: 768px) {
     .sign-box {
-
         width: 90%;
         /* height: auto; */
     }
 
-    .sign-main-side {
-        width: 60%;
-
-
-    }
-
-    .sign-input-box button {
-        font-size: 14px;
-    }
-       .sign-otp-box {
-        width: 350px;
-    }
 }
+
 
 @media (max-width: 660px) {
     .sign-box {
         width: 95%;
         flex-direction: row;
+        height: 75vh;
     }
 
     .sign-main-side {
@@ -172,23 +121,17 @@ button {
         height: auto;
     }
 
-   .sign-otp-box {
+    .sign-otp-box {
         width: 500px;
     }
 }
 
-/* ============================= */
-/* ✅ 480px (mobile) ke liye     */
-/* ============================= */
+/* 480px (mobile) ke liye     */
 @media (max-width: 480px) {
-
-
     .sign-main-side {
         width: 100%;
         height: auto;
     }
-
-
 
     .sign-input-box input {
         font-size: 14px;
@@ -205,51 +148,8 @@ button {
     }
 }
 
-/* ✅ 1210px ke liye responsive  */
-/* ============================= */
-@media (max-width: 1210px) {
-    .sign-box {
-        width: 80%;
-        height: 70vh;
-    }
 
-
-}
-
-/* ============================= */
-/* ✅ 1024px ke liye responsive  */
-/* ============================= */
-@media (max-width: 1024px) {
-    .sign-box {
-        width: 85%;
-        height: 65vh;
-    }
-
-}
-
-/* ============================= */
-/* ✅ 768px (tablet) ke liye     */
-/* ============================= */
-@media (max-width: 768px) {
-    .sign-box {
-
-        width: 90%;
-        /* height: auto; */
-    }
-
-}
-
-@media (max-width: 660px) {
-    .sign-box {
-        width: 95%;
-        flex-direction: row;
-    }
-
-}
-
-/* ============================= */
-/* ✅ 480px (mobile) ke liye     */
-/* ============================= */
+/*  480px (mobile) ke liye     */
 @media (max-width: 480px) {
     .sign-box {
         width: 95%;

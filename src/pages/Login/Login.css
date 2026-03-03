@@ -1,5 +1,4 @@
 .login-full-box {
-    /* border: 2px solid black; */
     height: 85vh;
     display: flex;
     align-items: center;
@@ -8,7 +7,6 @@
 
 /* Login side main container */
 .login-box {
-    /* border: 2px solid yellow; */
     width: 60%;
     height: 75vh;
     display: flex;
@@ -18,7 +16,6 @@
 }
 
 .login-main-side {
-    /* border: 2px solid green; */
     width: 60%;
     height: 100%;
     display: flex;
@@ -28,7 +25,6 @@
 }
 
 .login-input-box {
-    /* border: 2px solid black; */
     width: 90%;
     height: 250px;
     display: flex;
@@ -89,87 +85,7 @@
     }
 }
 
-/* ============================= */
-/* ✅ 1024px ke liye responsive  */
-/* ============================= */
-@media (max-width: 1024px) {
-    .login-box {
-        width: 85%;
-        height: 65vh;
-    }
 
-    .login-main-side {
-        width: 60%;
-    }
-
-    .login-input-box {
-        width: 95%;
-        height: 220px;
-    }
-}
-
-/* ============================= */
-/* ✅ 768px (tablet) ke liye     */
-/* ============================= */
-@media (max-width: 768px) {
-    .login-box {
-
-        width: 90%;
-        /* height: auto; */
-    }
-
-    .login-main-side {
-        width: 60%;
-
-
-    }
-
-    .login-input-box button {
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 660px) {
-    .login-box {
-        width: 95%;
-        flex-direction: row;
-    }
-
-    .login-main-side {
-        width: 100%;
-        height: auto;
-    }
-
-
-}
-
-/* ============================= */
-/* ✅ 480px (mobile) ke liye     */
-/* ============================= */
-@media (max-width: 480px) {
-
-
-    .login-main-side {
-        width: 100%;
-        height: auto;
-    }
-
-
-
-    .login-input-box input {
-        font-size: 14px;
-    }
-
-    .login-input-box button {
-        padding: 8px;
-        font-size: 14px;
-    }
-
-    .login-input-box {
-        gap: 8px;
-        height: 180px;
-    }
-}
 
 /* ✅ 1210px ke liye responsive  */
 /* ============================= */
@@ -178,8 +94,6 @@
         width: 80%;
         height: 70vh;
     }
-
-
 }
 
 /* ============================= */
@@ -190,7 +104,6 @@
         width: 85%;
         height: 65vh;
     }
-
 }
 
 /* ============================= */
@@ -198,11 +111,9 @@
 /* ============================= */
 @media (max-width: 768px) {
     .login-box {
-
         width: 90%;
         /* height: auto; */
     }
-
 }
 
 @media (max-width: 660px) {
@@ -210,7 +121,6 @@
         width: 95%;
         flex-direction: row;
     }
-
 }
 
 /* ============================= */
@@ -220,6 +130,4 @@
     .login-box {
         width: 95%;
     }
-
-
 }

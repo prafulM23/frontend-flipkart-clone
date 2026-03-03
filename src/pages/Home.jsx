@@ -6,20 +6,15 @@ import Flex from "./flex/flex"
 import Mobile from "./Mobile/mobile"
 import Option from "./Options/Option"
 import Sale from "./sale/sale"
-import { useState } from "react"
-import Product from "./single_item/product"
 
 const Home = ({ setCartList, cartList }) => {
 
   const handleAddToCart = (item) => {
     setCartList([...cartList, item])
-    // console.log(item)
   }
-
 
   return (
     <>
-
       <Option />
       <Banner />
       <Mobile AddToCart={handleAddToCart} />
@@ -28,9 +23,6 @@ const Home = ({ setCartList, cartList }) => {
       <Deals AddToCart={handleAddToCart} />
       <Fav AddToCart={handleAddToCart} />
       <Flex AddToCart={handleAddToCart} />
-
-
-
     </>
   )
 }
