@@ -5,7 +5,6 @@
     justify-content: center;
 }
 
-/* Login side main container */
 .login-box {
     width: 60%;
     height: 75vh;
@@ -67,8 +66,7 @@
 }
 
 
-/* ✅ 1210px ke liye responsive  */
-/* ============================= */
+/*  1210px ke liye responsive  */
 @media (max-width: 1210px) {
     .login-box {
         width: 80%;
@@ -87,8 +85,7 @@
 
 
 
-/* ✅ 1210px ke liye responsive  */
-/* ============================= */
+/*  1210px ke liye responsive  */
 @media (max-width: 1210px) {
     .login-box {
         width: 80%;
@@ -96,9 +93,7 @@
     }
 }
 
-/* ============================= */
-/* ✅ 1024px ke liye responsive  */
-/* ============================= */
+/*  1024px ke liye responsive  */
 @media (max-width: 1024px) {
     .login-box {
         width: 85%;
@@ -106,13 +101,12 @@
     }
 }
 
-/* ============================= */
-/* ✅ 768px (tablet) ke liye     */
-/* ============================= */
+
+/*  768px (tablet) ke liye     */
+
 @media (max-width: 768px) {
     .login-box {
         width: 90%;
-        /* height: auto; */
     }
 }
 
@@ -120,12 +114,42 @@
     .login-box {
         width: 95%;
         flex-direction: row;
+        height: auto;
+    }
+
+    .login-main-side {
+        width: 100%;
+    }
+
+    .login-full-box {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .login-box {
+        width: 95%;
+        flex-direction: row;
+        height: auto;
+    }
+
+    .login-main-side {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .login-input-box {
+        width: 90%;
+        height: auto;
+        gap: 15px;
+    }
+
+    .login-input-box input {
+        padding: 12px;
     }
 }
 
-/* ============================= */
-/* ✅ 480px (mobile) ke liye     */
-/* ============================= */
+
+/*  480px (mobile) ke liye     */
 @media (max-width: 480px) {
     .login-box {
         width: 95%;
